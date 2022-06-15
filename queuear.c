@@ -47,7 +47,7 @@ void enqueue()
 		}
 		rear++;
 		queue[rear]=entry;
-		//printf("\n%d \n",queue[rear]);
+		
 	}
 }
 void dequeue()
@@ -58,7 +58,6 @@ void dequeue()
 	}
 	else
 	{
-		//printf("\n%d \n",queue[front]);
 		front++;
 		if(front>rear)
 		{
